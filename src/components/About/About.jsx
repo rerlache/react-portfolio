@@ -2,10 +2,10 @@ import React from "react";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
 import {
-  AboutSection,
   ContactSection,
   TimelineSection,
 } from "../../styles/AboutStyles";
+import { AboutSection } from "../../styles/GlobalStyles";
 
 export default function About() {
   return (

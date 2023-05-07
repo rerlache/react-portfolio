@@ -15,8 +15,8 @@ export default function Header() {
   return (
     <NavBarContainer>
       <LogoContainer>
-        <Logo href="https://google.com" target="_blank">
-          <FaLaptopCode /> Portfolio
+        <Logo href="/">
+          <img src="/reLogo.png" height="36px" /> Portfolio
         </Logo>
       </LogoContainer>
       <NavLinkContainer>
