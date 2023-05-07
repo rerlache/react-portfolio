@@ -6,8 +6,8 @@ export const NavBarContainer = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 0.75rem;
-  background-color: var(--primary-dark-bgColor);
-  color: var(--primary-light-textColor);
+  background-color: var(--primary-darkColor);
+  color: var(--primary-lightColor);
   font-size: 1.5rem;
 `;
 export const LogoContainer = styled.div`
@@ -60,8 +60,8 @@ export const SocialIcon = styled.a`
   justify-content: center;
   border-radius: 50%;
   &:hover {
-    background-color: var(--primary-light-textColor);
-    color: var(--primary-dark-bgColor);
+    background-color: var(--primary-lightColor);
+    color: var(--primary-darkColor);
     transform: scale(1.2);
     cursor: pointer;
   }

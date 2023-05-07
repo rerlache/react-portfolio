@@ -9,10 +9,10 @@ body {
   padding: 0;
 }
 :root {
-  --primary-dark-bgColor: #444;
-  --secondary-dark-bgColor: #999;
-  --primary-light-textColor: #ddd;
-  --secondary-light-textColor: #eee;
+  --primary-darkColor: #444;
+  --secondary-darkColor: #999;
+  --primary-lightColor: #ddd;
+  --secondary-lightColor: #eee;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
