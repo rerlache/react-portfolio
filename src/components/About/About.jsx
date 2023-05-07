@@ -1,13 +1,21 @@
-import React from 'react'
-import Timeline from './Timeline'
-import Contact from './Contact'
-import { AboutSection } from '../../styles/AboutStyles'
+import React from "react";
+import Timeline from "./Timeline";
+import Contact from "./Contact";
+import {
+  AboutSection,
+  ContactSection,
+  TimelineSection,
+} from "../../styles/AboutStyles";
 
 export default function About() {
   return (
-    <AboutSection>
+    <AboutSection id="about">
+      <TimelineSection>
         <Timeline />
+      </TimelineSection>
+      <ContactSection>
         <Contact />
+      </ContactSection>
     </AboutSection>
-  )
+  );
 }

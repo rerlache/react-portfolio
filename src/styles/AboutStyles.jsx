@@ -4,7 +4,15 @@ export const AboutSection = styled.div`
   background-color: var(--primary-darkColor);
   color: var(--primary-lightColor);
   padding: 1rem 0;
-`
+`;
+export const TimelineSection = styled.div`
+background-color: var(--secondary-darkColor);
+color: var(--secondary-lightColor);
+`;
+export const ContactSection = styled.div`
+background-color: var(--primary-darkColor);
+color: var(--primary-lightColor);
+`;
 
 export const ContactContainer = styled.div`
   display: flex;
