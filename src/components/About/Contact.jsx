@@ -28,7 +28,7 @@ export default function Contact() {
         <FormInput id="inputMail" type="mail" />
         <FormLabel htmlFor="inputText">Your Message</FormLabel>
         <FormTextArea id="inputText" type="textblock" rows="8" />
-        <FormButton type="submit">Send&nbsp;<BsSend /></FormButton>
+        <FormButton type="submit" disabled>Send&nbsp;<BsSend /></FormButton>
       </FormContainer>
     </ContactContainer>
   );

@@ -72,7 +72,7 @@ export const FormButton = styled.button`
   padding: 0.5rem;
   border-radius: 20px;
   box-shadow: 0 0 5px 1px;
-  &:hover {
+  &:not(:disabled):hover {
     background-color: var(--primary-darkColor);
     color: var(--primary-lightColor);
   }
