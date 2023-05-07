@@ -19,7 +19,7 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   background-color: var(--secondary-darkColor);
-  justify-content: top;
+  color: var(--secondary-lightColor);
   align-items: center;
   width: 40%;
   padding: 0 0.6rem;

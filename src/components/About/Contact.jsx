@@ -14,7 +14,7 @@ export default function Contact() {
         <label htmlFor="inputMail">Email</label>
         <input id="inputMail" type="mail" />
         <label htmlFor="inputText">Your Message</label>
-        <textarea id="inputText" type="textblock" />
+        <textarea id="inputText" type="textblock" rows="8" />
         <button type="submit">Send</button>
       </FormContainer>
     </ContactContainer>
