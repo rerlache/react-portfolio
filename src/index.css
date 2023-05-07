@@ -10,7 +10,7 @@ body {
 }
 :root {
   --primary-darkColor: #444;
-  --secondary-darkColor: #999;
+  --secondary-darkColor: #555;
   --primary-lightColor: #ddd;
   --secondary-lightColor: #eee;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

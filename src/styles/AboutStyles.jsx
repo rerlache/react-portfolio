@@ -1,20 +1,27 @@
 import styled from "styled-components";
 
-  export const TimelineSection = styled.div`
-  background-color: var(--secondary-darkColor);
-  color: var(--secondary-lightColor);
-  padding: 1rem 0;
-  `;
-  export const ContactSection = styled.div`
+export const AboutContainer = styled.div`
+width: 75%;
+margin: 0 auto;
+`;
+export const TimelineSection = styled.section`
   background-color: var(--primary-darkColor);
   color: var(--primary-lightColor);
   padding: 1rem 0;
 `;
-
+export const ContactSection = styled.section`
+  background-color: var(--secondary-darkColor);
+  color: var(--secondary-lightColor);
+  padding: 1rem 0;
+`;
+export const IntroductionSection = styled.section`
+  margin: auto;
+  width: 75%;
+`;
 export const ContactContainer = styled.div`
   display: flex;
   flex-direction: row;
-  background-color: var(--secondary-lightColor);
+  background-color: var(--primary-lightColor);
   color: var(--primary-darkColor);
   width: 60%;
   margin: auto;
@@ -23,11 +30,12 @@ export const ContactContainer = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: var(--secondary-darkColor);
+  justify-content: space-around;
+  background-color: var(--primary-darkColor);
   color: var(--secondary-lightColor);
   align-items: center;
   width: 40%;
-  padding: 0 0.6rem;
+  padding: 4rem 2rem;
   margin-right: 0.25rem;
 `;
 export const FormContainer = styled.form`
@@ -39,4 +47,33 @@ export const FormContainer = styled.form`
 `;
 export const FormHeader = styled.h3`
   text-align: center;
+`;
+export const FormLabel = styled.label`
+  margin-top: 0.25rem;
+`;
+export const FormInput = styled.input`
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 0;
+`;
+export const FormTextArea = styled.textarea`
+  padding: 0.4rem;
+  border-radius: 5px;
+  border: 0;
+`;
+export const FormButton = styled.button`
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
+  margin: 0.75rem auto;
+  font-size: 1.3rem;
+  border: 0;
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px;
+  &:hover {
+    background-color: var(--primary-darkColor);
+    color: var(--primary-lightColor);
+  }
 `;

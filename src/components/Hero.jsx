@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import { SectionContainer, SectionHeader } from "../styles/GlobalStyles";
 
 export default function Hero() {
   return (
-    <div>Hero</div>
-  )
+    <SectionContainer>
+      <SectionHeader main>Welcome to<br /> my personal portfolio.</SectionHeader>
+    </SectionContainer>
+  );
 }
