@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const NavBarContainer = styled.div`
+export const NavBarContainer = styled.nav`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;

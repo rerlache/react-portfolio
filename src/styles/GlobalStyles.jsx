@@ -50,7 +50,6 @@ export const SectionText = styled.p`
 export const SectionDivider = styled.div`
   width: 100%;
   height: 6px;
-  border-radius: 10px;
   background: ${(props) =>
     props.primary
       ? "linear-gradient(0deg, var(--secondary-darkColor) 0%, var(--primary-darkColor) 100%)"

@@ -1,4 +1,3 @@
-import React from "react";
 import {
   NavBarContainer,
   Logo,
@@ -8,7 +7,7 @@ import {
   LogoContainer,
   NavLink,
 } from "../styles/HeaderStyles";
-import { FaLaptopCode, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import {BiMailSend} from 'react-icons/bi'
 
 export default function Header() {
