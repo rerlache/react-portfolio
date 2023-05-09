@@ -9,20 +9,20 @@ import BackgroundAnimation from "./components/BgAnimation";
 function App() {
   return (
     <Layout>
-      <Section grid center>
+      <Section grid="true" center="true">
         <Hero />
         <BackgroundAnimation />
       </Section>
-      <SectionDivider />
-      <Section primary>
+      <SectionDivider id="projects" />
+      <Section primary="true">
         <Projects />
       </Section>
-      <SectionDivider primary />
+      <SectionDivider primary="true" id="tech" />
       <Section>
         <Technologies />
       </Section>
-      <SectionDivider />
-      <Section primary nopadding>
+      <SectionDivider id="about" />
+      <Section primary="true" nopadding="true">
         <About />
       </Section>
     </Layout>

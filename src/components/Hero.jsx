@@ -4,7 +4,7 @@ import { SectionContainer, SectionHeader, SectionText } from "../styles/GlobalSt
 export default function Hero() {
   return (
     <SectionContainer>
-      <SectionHeader main>Welcome to<br /> my personal portfolio.</SectionHeader>
+      <SectionHeader main="true">Welcome to<br /> my personal portfolio.</SectionHeader>
       <SectionText>
         at the moment this site is not responsive, but i'm working on that aswell as on the content in general.
       </SectionText>
