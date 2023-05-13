@@ -5,11 +5,11 @@ export const Section = styled.section`
   flex-direction: ${(props) => (props.row ? "row" : "column")};
   padding: ${(props) => (props.nopadding ? "0" : "32px 48px 0")};
   background-color: ${(props) =>
-    props.primary ? "var(--primary-darkColor)" : "var(--secondary-darkColor)"};
+    props.primary ? "rgba(var(--primary-darkColor))" : "rgba(var(--secondary-darkColor))"};
   color: ${(props) =>
     props.primary
-      ? "var(--primary-lightColor)"
-      : "var(--secondary-lightColor)"};
+      ? "rgba(var(--primary-lightColor))"
+      : "rgba(var(--secondary-lightColor))"};
   margin: ${(props) => (props.nomargin ? "" : "0 auto")};
   box-sizing: content-box;
   position: relative;
@@ -32,7 +32,7 @@ export const SectionHeader = styled.h2`
   background: linear-gradient(
     121.57deg,
     #ffffff 18.77%,
-    rgba(255, 255, 255, 0.66) 60.15%
+    rgba(var(--secondary-lightColor), 0.66) 60.15%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,8 +62,8 @@ export const SectionDivider = styled.div`
   height: 6px;
   background: ${(props) =>
     props.primary
-      ? "linear-gradient(0deg, var(--secondary-darkColor) 0%, var(--primary-darkColor) 100%)"
-      : "linear-gradient(0deg, var(--primary-darkColor) 0%, var(--secondary-darkColor) 100%)"};
+      ? "linear-gradient(0deg, rgba(var(--secondary-darkColor)) 0%, rgba(var(--primary-darkColor)) 100%)"
+      : "linear-gradient(0deg, rgba(var(--primary-darkColor)) 0%, rgba(var(--secondary-darkColor)) 100%)"};
 
   margin: ${(props) => (props.divider ? "4rem 0" : "0 auto")};
 `;

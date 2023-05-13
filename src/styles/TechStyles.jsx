@@ -25,10 +25,10 @@ export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
-export const ListParagraph = styled.p`
+export const ListParagraph = styled.div`
   font-size: 18px;
   line-height: 30px;
-  color: var(--primary-lightColor);
+  color: rgba(var(--primary-lightColor));
 `;
 export const ListTitle = styled.h4`
   font-weight: 700;
@@ -55,5 +55,5 @@ export const ListIcon = styled.svg`
   width: 48px;
   height: 48px;
   margin-bottom: 10px;
-  color: var(--primary-lightColor);
+  color: rgba(var(--primary-lightColor));
 `;

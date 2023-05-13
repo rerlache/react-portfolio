@@ -9,16 +9,19 @@ body {
   padding: 0;
 }
 :root {
-  --primary-darkColor: #444;
-  --secondary-darkColor: #555;
-  --primary-lightColor: #ddd;
-  --secondary-lightColor: #eee;
+  --primary-darkColor: 51, 51, 51;
+  --secondary-darkColor: 68, 68, 68;
+  --primary-lightColor: 145, 145, 145;
+  --secondary-lightColor: 209, 209, 209;
+  --primary-accentColor: 107, 48, 48;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
 
-
+.test{
+  justify-content: space-evenly;
+}
 
 
 /*

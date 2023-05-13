@@ -4,15 +4,15 @@ export const NavBarcontainer = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--primary-darkColor);
-  color: var(--primary-lightColor);
+  background-color: rgba(var(--primary-darkColor));
+  color: rgba(var(--primary-lightColor));
   padding: .75rem 2rem;
   font-size: 1.5rem;
   position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
-  box-shadow: 0px 2px 15px var(--secondary-darkColor);
+  box-shadow: 0px 2px 15px rgba(var(--secondary-darkColor));
   
   @media only screen and (max-width: 767px) {
     flex-wrap: nowrap;
@@ -47,7 +47,7 @@ export const NavLinkContainer = styled.ul`
   flex-direction: row;
   align-items: center;
   margin: auto;
-  background-color: var(--primary-darkColor);
+  background-color: rgba(var(--primary-darkColor));
 
   @media only screen and (max-width: 767px) {
     display: none;
@@ -74,7 +74,7 @@ export const NavLink = styled.a`
   text-decoration: none;
   padding: 0.5rem 1rem;
   transistion: all 0.3s ease;
-  background-color: var(--primary-darkColor);
+  background-color: rgba(var(--primary-darkColor));
   &:hover {
     transform: scale(1.2);
     cursor: pointer;
@@ -96,8 +96,8 @@ export const SocialIcon = styled.a`
   justify-content: center;
   border-radius: 50%;
   &:hover {
-    background-color: var(--primary-lightColor);
-    color: var(--primary-darkColor);
+    background-color: rgba(var(--primary-lightColor));
+    color: rgba(var(--primary-accentColor));
     transform: scale(1.2);
     cursor: pointer;
   }

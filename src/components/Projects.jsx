@@ -12,6 +12,7 @@ import {
   Img,
   Link,
   LinkList,
+  ListItem,
   Tag,
   TagList,
 } from "../styles/ProjectStyles";
@@ -23,7 +24,7 @@ export default function Projects() {
       <SectionHeader main="true">Projects</SectionHeader>
       <SectionText>Here are some of the projects i did.</SectionText>
       <Grid>
-        {ProjectData.map(
+        {ProjectData.filter((project) => project.id !== 0).map(
           ({ id, name, description, previewImg, previewUrl, tags, gitUrl }) => {
             return (
               <Card key={id}>
@@ -38,15 +39,23 @@ export default function Projects() {
                   ))}
                 </TagList>
                 <LinkList>
-                  <Link target="_blank" href={previewUrl}>
-                    Show
-                  </Link>
-                  <Link target="_blank" href={gitUrl}>
-                    Code
-                  </Link>
+                  <ListItem>
+                    <Link target="_blank" href={previewUrl}>
+                      Show
+                    </Link>
+                  </ListItem>
+                  {gitUrl !== "" ? (
+                    <ListItem>
+                      <Link target="_blank" href={gitUrl}>
+                        Code
+                      </Link>
+                    </ListItem>
+                  ) : (
+                    ""
+                  )}
                 </LinkList>
               </Card>
-            )
+            );
           }
         )}
       </Grid>

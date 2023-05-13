@@ -12,15 +12,9 @@ import {
 export default function About() {
   return (
     <>
-      <SectionContainer>
-        <SectionHeader main="true">About Me</SectionHeader>
-        <SectionText>
-          I started my development journey 2018. As i got more into PowerApps,
-          Flow and the DataVerse and created some nice apps with these Low-Code
-          apps.
-        </SectionText>
-      </SectionContainer>
-      <Timeline />
+      <Section primary="true" nomargin="true">
+        <Timeline />
+      </Section>
       <SectionDivider primary="true" />
       <Section nopadding="true" nomargin="true">
         <Contact />
