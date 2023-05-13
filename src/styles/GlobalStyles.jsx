@@ -38,6 +38,11 @@ export const SectionHeader = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => (props.main ? "58px 0 16px" : "0")};
+
+  @media (width < 767px){
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
 `;
 export const SectionText = styled.p`
   max-width: 800px;
@@ -46,6 +51,11 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.5);
+  
+  @media (width < 767px){
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 `;
 export const SectionDivider = styled.div`
   width: 100%;

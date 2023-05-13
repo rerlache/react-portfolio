@@ -6,6 +6,7 @@ import {
   SectionContainer,
   SectionDivider,
   SectionHeader,
+  SectionText,
 } from "../../styles/GlobalStyles";
 
 export default function About() {
@@ -13,20 +14,18 @@ export default function About() {
     <>
       <SectionContainer>
         <SectionHeader main="true">About Me</SectionHeader>
-        <IntroductionSection>
+        <SectionText>
           I started my development journey 2018. As i got more into PowerApps,
           Flow and the DataVerse and created some nice apps with these Low-Code
           apps.
-        </IntroductionSection>
+        </SectionText>
       </SectionContainer>
-      <Section primary="true" row="true">
-        <Timeline />
-      </Section>
+      <Timeline />
       <SectionDivider primary="true" />
       <Section nopadding="true" nomargin="true">
         <Contact />
       </Section>
-      <SectionDivider />    
+      <SectionDivider />
     </>
   );
 }

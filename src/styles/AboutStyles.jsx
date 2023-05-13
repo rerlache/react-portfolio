@@ -26,6 +26,10 @@ export const ContactContainer = styled.div`
   width: 60%;
   margin: auto;
   box-shadow: 0 0 10px 1px white;
+  
+  @media (width < 767px){
+    width:90%;
+  }
 `;
 export const InfoContainer = styled.div`
   display: flex;
