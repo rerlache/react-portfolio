@@ -9,7 +9,7 @@ export const TechData = [
   {
     category: "Frontend",
     icon: <AiOutlineHtml5 size="2rem" />,
-    items: ["HTML", "CSS", "react", "C#", "Blazor"],
+    items: ["HTML", "CSS", "react", "C#", "Blazor", "blender", "unity"],
   },
   {
     category: "Backend",

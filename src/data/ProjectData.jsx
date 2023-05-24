@@ -30,6 +30,15 @@ export const ProjectData = [
     tags: ["C#", "SQL", "EFCore", "WebAPI"],
   },
   {
+    id: 4,
+    name: "Low Poly Racer",
+    description: "This is my first Game i made on my own, got the inspiration from the youtuber -Imphenzia-. ",
+    gitUrl: "https://github.com/rerlache/unity-LowPolyRacer",
+    previewUrl: "https://sharemygame.com/@rerlache/low-poly-racer",
+    previewImg: "/images/projects/lowPolyRacer.PNG",
+    tags: ["Unity", "C#", "blender"],
+  },
+  {
     id: 0,
     name: "",
     description: "",

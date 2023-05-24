@@ -39,4 +39,9 @@ export const TimelineData = [
         'year': '2023',
         'text': 'started learning react.js'
     },
+    {
+        "month": '05',
+        'year': '2023',
+        'text': 'started Game Dev Journey'
+    },
 ]
