@@ -10,7 +10,7 @@ export default function Footer() {
 //      </div>
   return (
     <div style={{fontSize: "1.5rem", display: "flex", justifyContent: "space-between"}}>
-      &copy; 2023
+      &copy; {new Date().getFullYear()}
       <SocialIcons display />
     </div>
   )
